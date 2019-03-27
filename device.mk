@@ -85,6 +85,10 @@ PRODUCT_PACKAGES += \
     SweetinproWifiOverlay \
     SweetWifiOverlay
 
+# Overlay Notchbarkiller
+PRODUCT_PACKAGES += \
+    NotchBarKiller
+
 # Power
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json

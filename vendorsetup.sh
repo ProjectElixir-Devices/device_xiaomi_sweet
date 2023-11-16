@@ -14,7 +14,7 @@ git clone --depth=1 https://github.com/pure-soul-kk/vendor_xiaomi_sweet-miuicame
 
 # Kernel Tree
 rm -rf kernel/xiaomi
-git clone --depth=1 https://github.com/pure-soul-kk/android_kernel_xiaomi_sm6150.git kernel/xiaomi/sm6150
+git clone --depth=1 https://github.com/pure-soul-kk/kernel_xiaomi_sm6150.git kernel/xiaomi/sm6150
 
 # Aosp 17.0.4 Clang
 rm -rf prebuilts/clang/host/linux-x86/r498229b

@@ -1,0 +1,6 @@
+device/xiaomi
+vendor/xiaomi
+kernel/xiaomi
+hardware/xiaomi
+hardware/lineage/compat
+prebuilts/clang/host/linux-x86/r498229b

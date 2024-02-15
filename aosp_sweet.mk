@@ -19,6 +19,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 ELIXIR_BUILD_TYPE := OFFICIAL
+EXCLUDE_LAWNCHAIR := true
 
 PRODUCT_NAME := aosp_sweet
 PRODUCT_DEVICE := sweet

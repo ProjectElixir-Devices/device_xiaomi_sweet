@@ -10,7 +10,7 @@ git clone --depth=1 -b UNO https://github.com/ProjectElixir-Devices/vendor_xiaom
 git clone --depth=1 -b UNO https://github.com/ProjectElixir-Devices/vendor_xiaomi_sm6150-common-sweet vendor/xiaomi/sm6150-common
 
 # Miui Camera
-git clone --depth=1 https://github.com/pure-soul-kk/vendor_xiaomi_sweet-miuicamera.git vendor/xiaomi/sweet-miuicamera
+git clone --depth=1 https://gitlab.com/unmoved21/sweet-miuicamera.git vendor/xiaomi/sweet-miuicamera
 
 # Kernel Tree
 rm -rf kernel/xiaomi

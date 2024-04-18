@@ -12,5 +12,5 @@ git clone --depth=1 https://gitlab.com/unmoved21/sweet-miuicamera.git vendor/xia
 
 # Kernel Tree
 rm -rf kernel/xiaomi
-git clone --depth=1 https://github.com/pure-soul-kk/kernel_xiaomi_sweet kernel/xiaomi/sm6150
+git clone --depth=1 https://github.com/pure-soul-kk/kernel_xiaomi_sm6150 kernel/xiaomi/sm6150
 

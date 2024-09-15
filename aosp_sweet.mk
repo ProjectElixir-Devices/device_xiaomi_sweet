@@ -14,6 +14,12 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 # Inherit some common PixelOS stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_QUICK_TAP := true
+ELIXIR_BUILD_TYPE := OFFICIAL
+BUILD_USERNAME := Krishna
+BUILD_HOSTNAME := Elixir
+WITH_GMS := true
+
 
 PRODUCT_NAME := aosp_sweet
 PRODUCT_DEVICE := sweet
